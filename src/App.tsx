@@ -10,6 +10,9 @@ import ContactUs from './pages/ContactUs';
 import FAQ from './pages/FAQ';
 import Login from './pages/Login';
 import Register from './pages/Register';
+import Terms from './pages/Terms';
+import Privacy from './pages/Privacy';
+import ResetPassword from './pages/ResetPassword';
 import NotFound from './pages/NotFound';
 import Dashboard from './pages/Dashboard';
 import CoursePreview from './pages/CoursePreview';
@@ -30,6 +33,9 @@ function App() {
             <Route path="/faq" element={<FAQ />} />
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
+            <Route path="/terms" element={<Terms />} />
+            <Route path="/privacy" element={<Privacy />} />
+            <Route path="/reset-password" element={<ResetPassword />} />
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/course-preview/:id" element={<CoursePreview />} />
             <Route path="/thank-you" element={<ThankYou />} />
